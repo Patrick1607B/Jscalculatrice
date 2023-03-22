@@ -49,14 +49,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: var(--br);
 }
 
 .afficheur {
     width: 80%;
     height: 55px;
     background-color: var(--backgroundAfficheur);
-    border-radius: 10px;
+    border-radius: var(--br);
     display: flex;
     justify-content: end;
     align-items: center;
@@ -96,7 +96,7 @@ main {
     width: 90%;
     color: var(--styleD);
     text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
+    border-radius: var(--br);
     background-color: var(--touches);
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
@@ -130,7 +130,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-radius: 20px;
+        border-radius: var(--br);
     }
 
     .touches {
@@ -155,7 +155,7 @@ main {
         width: 90%;
         color: var(--styleD);
         text-shadow: var(--text-shadow);
-        border-radius: 10px;
+        border-radius: var(--br);
         background-color: var(--touches);
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
@@ -179,7 +179,7 @@ main {
         width: 90%;
         color: #fff;
         text-shadow: 1px 1px 1px #000;
-        border-radius: 10px;
+        border-radius: var(--br);
         background-color: rgba(220, 0, 0, 1);
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
@@ -202,7 +202,7 @@ main {
         width: 80%;
         height: 55px;
         background-color: var(--backgroundAfficheur);
-        border-radius: 10px;
+        border-radius: var(--br);
         display: flex;
         justify-content: end;
         align-items: center;
