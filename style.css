@@ -28,11 +28,11 @@ header {
     align-items: center;
     background-color: var(--backgroundHeader);
     color: var(--colorB);
-    height: 20%;
+    height: 10%;
 }
 
 main {
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
