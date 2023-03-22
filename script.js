@@ -12,7 +12,7 @@ console.log("test1", border1);
 
 let root = document.querySelector(":root");
 let rootStyles = getComputedStyle(root);
-let Ctouche = rootStyles.getPropertyValue("--styleD");
+let styleD = rootStyles.getPropertyValue("--styleD");
 let cHeader = rootStyles.getPropertyValue("--backgroundHeader");
 let backgroundMain = rootStyles.getPropertyValue("--backgroundMain");
 let backgroundConteneur = rootStyles.getPropertyValue("--backgroundConteneur");
