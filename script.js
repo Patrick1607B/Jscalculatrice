@@ -44,7 +44,7 @@ modif.addEventListener("click", () => {
   // console.log("test2", border);
   // console.log("click ");
 });
-l;
+
 //---------------------------------------
 
 document.addEventListener("keydown", (e) => {
